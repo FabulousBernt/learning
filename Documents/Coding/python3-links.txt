@@ -1,0 +1,8 @@
+#Useful links for Python3
+
+#Built in Functions
+https://docs.python.org/3/library/functions.html
+
+#String Methods
+https://www.w3schools.com/python/python_ref_string.asp
+
