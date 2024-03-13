@@ -6,5 +6,8 @@ https://docs.python.org/3/library/functions.html
 #String Methods
 https://www.w3schools.com/python/python_ref_string.asp
 
+#Keywords in Python3
+https://www.w3schools.com/python/python_ref_keywords.asp
+
 #Writing comments in Python (Guide)
 https://realpython.com/python-comments-guide/
