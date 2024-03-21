@@ -1,0 +1,7 @@
+#Useful links for Python3
+
+#Python tutorials/documentation
+https://www.w3schools.com/python/default.asp
+
+#Writing comments in Python (Guide)
+https://realpython.com/python-comments-guide/
