@@ -5,3 +5,6 @@ https://www.w3schools.com/python/default.asp
 
 #Writing comments in Python (Guide)
 https://realpython.com/python-comments-guide/
+
+#List of exceptions
+https://docs.python.org/3/library/exceptions.html
