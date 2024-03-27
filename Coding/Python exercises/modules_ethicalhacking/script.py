@@ -1,7 +1,13 @@
-# FILE I/O
+from translate import Translator
 
-my_file = open("test.txt")
+translator = Translator(to_lang="ja")
 
-print(my_file.readlines())
-
-my_file.close()
+try:
+    with open('./testfolder/test.txt', mode='r') as my_file:
+        text = my_file.read()
+        translation = translator.translate(text)
+        print(translation)
+        with open('./testfolder/test-ja.txt', mode='w') as my_file2:
+            my_file2.write(translation)
+except FileNotFoundError as err:
+    print("File not found, check file path.")
