@@ -14,7 +14,7 @@ def scan_port(ipaddress, port):
     except:
         print('[-] Port Closed ' + str(port))
 
-targets = input('[*] Enter target to scan (Split them by ,): ')
+targets = int(input('[*] Enter target to scan (Split them by ,): '))
 ports = input('[*] Enter how many ports you want to scan: ')
 if ',' in targets:
     print('[*] Scanning multiple targets')
